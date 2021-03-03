@@ -1,37 +1,21 @@
-## Welcome to GitHub Pages
+# 软件工程与计算一
 
-You can use the [editor on GitHub](https://github.com/SweatyPandas-Lancelot/secI-gitbook/edit/gh-pages/index.md) to maintain and preview the content for your website in Markdown files.
+## 问题收集与解答 2021.3.3
 
-Whenever you commit to this repository, GitHub Pages will run [Jekyll](https://jekyllrb.com/) to rebuild the pages in your site, from the content in your Markdown files.
+Q：我该下载哪些软件？
 
-### Markdown
+A：python 版本3.*均可、JDK 最好是1.8，这两项是必要的，另外如果需要也可以下载Anaconda。IDE方面每个人都是自由的，你可以使用Pycharm、IDEA或者其他的IDE，不用IDE也可以。
 
-Markdown is a lightweight and easy-to-use syntax for styling your writing. It includes conventions for
+ps：机房的环境为Pycharm、IDEA。上机考试需要同学们自己去熟悉环境。
 
-```markdown
-Syntax highlighted code block
+---
 
-# Header 1
-## Header 2
-### Header 3
+Q：python 和 Anaconda有什么区别？
 
-- Bulleted
-- List
+A：
 
-1. Numbered
-2. List
+## Welcome to SEC-I 2021.3.3
 
-**Bold** and _Italic_ and `Code` text
+本页面主要用于发布近期对同学们常见问题的收集和回答，以及一些必要的通知和常用链接，每次更新都会附上时间顺序，最新的消息将会被放在最顶上
 
-[Link](url) and ![Image](src)
-```
-
-For more details see [GitHub Flavored Markdown](https://guides.github.com/features/mastering-markdown/).
-
-### Jekyll Themes
-
-Your Pages site will use the layout and styles from the Jekyll theme you have selected in your [repository settings](https://github.com/SweatyPandas-Lancelot/secI-gitbook/settings). The name of this theme is saved in the Jekyll `_config.yml` configuration file.
-
-### Support or Contact
-
-Having trouble with Pages? Check out our [documentation](https://docs.github.com/categories/github-pages-basics/) or [contact support](https://support.github.com/contact) and we’ll help you sort it out.
+本页面使用GithubPage进行发布，使用Markdown格式进行编写
