@@ -38,6 +38,16 @@ ps：coder上已经给出了一些使用帮助，大家使用一些新的软件�
 
 ---
 
+**Q**：git clone的时候出现
+```
+fatal: User cancelled the authentication prompt.`
+remote: HTTP Basic: Access denied
+fatal: Authentication failed for .....
+```
+**A**：大概率是你第一次clone的时候输错了用户名或者密码，导致出现了问题，你需要查看[使用帮助](http://coder.seecoder.cn/help)，然后再次进行git clone，密码是发到邮箱中的密码，如果还有问题，请和这一位助教私聊{@pkun(936637810)}
+
+---
+
 **Q**：clone下来后应该干什么？
 
 **A**：clone下来后对阅读README，修改代码，然后使用[使用帮助](http://coder.seecoder.cn/help)中给出的方式提交。
