@@ -18,9 +18,9 @@
 <span id='问题收集与解答-2021.3.5'></span>
 ## 问题收集与解答 2021.3.5
 
-**Q** coder上的试卷地址是用来干什么的？
+**Q**：coder上的试卷地址是用来干什么的？
 
-**A** coder上试卷的地址是一个`git clone`使用的链接，你可以使用`git clone <url>`来把试卷下载下来，这个地址并不能直接打开。具体的使用情况请看[使用帮助](http://coder.seecoder.cn/help)
+**A**：coder上试卷的地址是一个`git clone`使用的链接，你可以使用`git clone <url>`来把试卷下载下来，这个地址并不能直接打开。具体的使用情况请看[使用帮助](http://coder.seecoder.cn/help)
 
 <span id='问题收集与解答-2021.3.3'></span>
 ## 问题收集与解答 2021.3.3
