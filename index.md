@@ -50,7 +50,7 @@ fatal: Authentication failed for .....
 
 **Q**：clone下来后应该干什么？
 
-**A**：clone下来后对阅读README，修改代码，然后使用[使用帮助](http://coder.seecoder.cn/help)中给出的方式提交。
+**A**：clone下来后对阅读README，修改代码，然后使用[使用帮助](http://coder.seecoder.cn/help)中给出的方式提交。clone下来的文件在你clone的目录下面。
 
 ---
 
