@@ -48,7 +48,7 @@ fatal: User cancelled the authentication prompt.`
 remote: HTTP Basic: Access denied
 fatal: Authentication failed for .....
 ```
-**A**：大概率是你第一次clone的时候输错了用户名或者密码，导致出现了问题，你需要查看[使用帮助](http://coder.seecoder.cn/help)，然后再次进行git clone，密码是发送到邮件中的密码。
+**A**：大概率是你第一次clone的时候输错了用户名或者密码，导致出现了问题，你需要查看[使用帮助](http://coder.seecoder.cn/help)，里面有一条指令是`git config --system --unset credential.helper`，输入后再次进行git clone，密码是发送到邮件中的密码。
 
 还有一种可能是你曾经重置过邮箱，但是我们远端仓库记录的还是你第一次使用的邮箱，所以需要进行一次重置，请给这位助教{@pkun(936637810)}发送信息，重置完后再次git clone
 
