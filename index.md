@@ -12,6 +12,10 @@
 
 git clone 的时候，不要使用你登陆seecoder的密码，而是使用发送到你的注册邮箱中的密码。
 
+Git教程
+- http://www-cs-students.stanford.edu/~blynn/gitmagic/intl/zh_cn/
+- https://www.liaoxuefeng.com/wiki/896043488029600
+- https://learngitbranching.js.org/
 ---
 
 [提问的智慧](https://github.com/ryanhanwu/How-To-Ask-Questions-The-Smart-Way/blob/main/README-zh_CN.md)
