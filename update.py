@@ -1,7 +1,7 @@
 import json
 
 QUESTIONS_INDEX = "question_index"
-QUESTIONS_INDEX_CHI = "问题索引"
+QUESTIONS_INDEX_CHI = "问题收集与解答"
 QUESTION_SPAN_MARK = "Q"
 NEWS_INDEX = "news_index"
 NEWS_INDEX_CHI = "新闻索引"
@@ -27,8 +27,8 @@ def create_question_index(l: list):
 
 def create_question(l: list):
     return ''.join(
-        [get_span(QUESTION_SPAN_MARK + str(_)) + '\n' + "#### Q:{} \n**A**:{}\n".format(l[_][1], l[_][2]) for _ in
-         range(len(l))])
+        [get_span(QUESTION_SPAN_MARK + str(_)) + '\n' + "#### Q:{} \n**A**:{}\n\n---\n".format(l[_][1], l[_][2]) for _
+         in range(len(l))])
 
 
 # 创建新闻索引
