@@ -1,29 +1,6 @@
-## 目录
-
-- [长期置顶](#长期置顶)
-- [问题收集与解答 2021.3.5](#问题收集与解答-2021.3.5)
-- [问题收集与解答 2021.3.3](#问题收集与解答-2021.3.3)
-- [Welcome to SEC-I 2021.3.3](#Welcome-to-SEC-I-2021.3.3)
-
-**最后更新日期**：2021.3.5
-
-请使用`ctrl+F5`强制刷新来保证你获得的是最新的页面
-
-## 长期置顶
-
-git clone 的时候，不要使用你登陆seecoder的密码，而是使用发送到你的注册邮箱中的密码。
-
----
-
-[提问的智慧](https://github.com/ryanhanwu/How-To-Ask-Questions-The-Smart-Way/blob/main/README-zh_CN.md)
-
-学会如何更好的提问是成为一名合格的程序员的重要一步，并不是不愿意为大家解决问题，而是实际上不可能任何时候都有一个人可以快速便捷地为大家解决问题。总有一天，你需要依赖互联网来检索你的问题。所以，提问前先Google/Baidu一下你的问题，不仅可以锻炼你的搜索能力，也可以将时间和精力留给那些更重要的问题。
-
-
-<span id='Welcome-to-SEC-I-2021.3.3'></span>
-## Welcome to SEC-I 2021.3.3
-
-本页面主要用于发布近期对同学们常见问题的收集和回答，以及一些必要的通知和常用链接，每次更新都会附上时间顺序，最新的消息将会被放在最顶上
-
-本页面使用GithubPage进行发布，使用Markdown格式进行编写
-
+在currency_exchange的测试文件中，是从输出流中提取同学们的print语句print出来的字符串打印的，下列两种不同的格式化方法，在输出流中会不一样
+![3365F305A095136802E60E0FFF0C35F7](https://pkun.oss-cn-beijing.aliyuncs.com/uPic/3365F305A095136802E60E0FFF0C35F7.jpg)
+第一种会通过，但是第二种会显示out of range，如果同学们打断点调试的话，很容易就会发现这两种输出的方式输出流有很大的不同。
+![A69253BEF3CE6ED1FD1383B20234C1B8](https://pkun.oss-cn-beijing.aliyuncs.com/uPic/A69253BEF3CE6ED1FD1383B20234C1B8.jpg) 
+![87330C24866537A4D731D2BA5FD80078](https://pkun.oss-cn-beijing.aliyuncs.com/uPic/87330C24866537A4D731D2BA5FD80078.jpg) 
+至于具体原因，大家可以自行查询python的文档。
