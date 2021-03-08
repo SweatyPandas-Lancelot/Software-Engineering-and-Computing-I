@@ -1,10 +1,3 @@
-STUID = 191220000
-STUNAME = 张三
-
-# DO NOT modify the following code!!!
-
-GITFLAGS = -q --author='LiChun <181250068@smail.nju.edu.cn>' --no-verify --allow-empty
-
 # prototype: git_commit(msg)
 define git_commit
 	-@git add .

@@ -3,4 +3,4 @@ GEN = update.py
 include Makefile.git
 blog:
 	$(PY) $(GEN)
-	$(call git_commit, "compile")
+	$(call git_commit)
