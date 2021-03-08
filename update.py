@@ -1,4 +1,6 @@
 import json
+import re
+import pathlib
 
 QUESTIONS_INDEX = "question_index"
 QUESTIONS_INDEX_CHI = "问题收集与解答"
@@ -6,6 +8,7 @@ QUESTION_SPAN_MARK = "Q"
 NEWS_INDEX = "news_index"
 NEWS_INDEX_CHI = "新闻索引"
 NEWSS_SPAN_MARK = "N"
+root = pathlib.Path(__file__).parent.resolve()
 
 
 def get_span(s):
@@ -46,6 +49,17 @@ def create_directory():
     pass
 
 
+def replace_chunk(content, marker, chunk, inline=False):
+    r = re.compile(
+        r"<!\-\- {} starts \-\->.*<!\-\- {} ends \-\->".format(marker, marker),
+        re.DOTALL,
+    )
+    if not inline:
+        chunk = "\n{}\n".format(chunk)
+    chunk = "<!-- {} starts -->{}<!-- {} ends -->".format(marker, chunk, marker)
+    return r.sub(chunk, content)
+
+
 # ## directory
 #   - [index_1](span_id)
 #   - [index_2][span_id]
@@ -64,17 +78,13 @@ def create_directory():
 # 目录下面有一个问题总索引、问题总索引下面会有问题索引。
 # every_index 标记一些新闻、链接等信息。
 # 创建格式
-def generate_format():
-    pass
-
-
-# 插入信息
-def insert_info():
-    pass
 
 
 if __name__ == '__main__':
     r = open('question.json', 'r')
     l = json.load(r)
-    print(create_question_index(l))
-    print(create_question(l))
+    questions = create_question_index(l) + '\n' + create_question(l)
+    readme = root / 'index.md'
+    readme_contents = readme.open().read()
+    rewritten = replace_chunk(readme_contents, "questions", questions)
+    readme.open("w").write(rewritten)
