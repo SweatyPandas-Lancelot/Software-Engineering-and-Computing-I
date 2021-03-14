@@ -10,7 +10,7 @@
 请使用`ctrl+F5`强制刷新来保证你获得的是最新的页面
 
 ## 长期置顶
-
+[使用git和IDE进行写作业的演示视频](https://www.bilibili.com/video/BV1nh411Q7fs)
 **git clone 的时候，不要使用你登陆seecoder的密码，而是使用发送到你的注册邮箱中的密码。**
 
 Git教程
