@@ -2,7 +2,7 @@
   [
     "关于打开Java作业出现红色文件的情况",
     "关于打开Java作业出现红色文件的情况",
-    "![B590E405CD2CBE2D6AF6501E7EDAD097](https://pkun.oss-cn-beijing.aliyuncs.com/uPic/B590E405CD2CBE2D6AF6501E7EDAD097.png)\n\n遇到上面这种情况该怎么办？\n\n1. 点击File，然后点击close project\n2. ![2925D31DD23E5B4436FB5C2F2356B135](https://pkun.oss-cn-beijing.aliyuncs.com/uPic/2925D31DD23E5B4436FB5C2F2356B135.png)在这个位置，点击open，找到2cd72aa4a*这个项目的文件夹位置\n3. ![image-20210421104226986](/Users/pkun/Library/Application Support/typora-user-images/image-20210421104226986.png)选中图中的文件夹，然后点击ok就可以解决问题\n\n#### 为什么会出现这样的问题？\n\n因为clone下来的项目是一个Java项目，IDEA默认会先查看项目的根目录下有没有maven或者gradle这种包管理工具，如果有的话（对我们的项目来说就是pom.xml）就会按照对应的方式来解析我们的项目，如果你没有用任何包管理工具，你就需要打开项目后自己在project structure处设置你的文件夹的属性。",
+    "![B590E405CD2CBE2D6AF6501E7EDAD097](https://pkun.oss-cn-beijing.aliyuncs.com/uPic/B590E405CD2CBE2D6AF6501E7EDAD097.png)\n\n遇到上面这种情况该怎么办？\n\n1. 点击File，然后点击close project\n2. ![2925D31DD23E5B4436FB5C2F2356B135](https://pkun.oss-cn-beijing.aliyuncs.com/uPic/2925D31DD23E5B4436FB5C2F2356B135.png)在这个位置，点击open，找到2cd72aa4a*这个项目的文件夹位置\n3. ![image-20210421104226986](https://pkun.oss-cn-beijing.aliyuncs.com/uPic/image-20210421104226986.png)选中图中的文件夹，然后点击ok就可以解决问题\n\n#### 为什么会出现这样的问题？\n\n因为clone下来的项目是一个Java项目，IDEA默认会先查看项目的根目录下有没有maven或者gradle这种包管理工具，如果有的话（对我们的项目来说就是pom.xml）就会按照对应的方式来解析我们的项目，如果你没有用任何包管理工具，你就需要打开项目后自己在project structure处设置你的文件夹的属性。\n\n",
     "2021.4.21"
   ],
   [
