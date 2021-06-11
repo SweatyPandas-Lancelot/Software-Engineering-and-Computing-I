@@ -52,7 +52,26 @@ Git教程
 
 <span id="Q0"></span>
 #### Q:图灵机第二次作业的勘误 
-**A**:在README中关于磁头移动的描述里，应该是"...当一个磁带的磁头走到了这个磁带的某个磁道的最尾部时，需要给**所有**磁道增加一个空格符..."
+**A**:- 在README中关于磁头移动的描述里，应该是"...当一个磁带的磁头走到了这个磁带的某个磁道的最尾部时，需要给**所有**磁道增加一个空格符..."
+- "再调用一次execute，接着调用snapShot会得到
+
+```
+Step  : 0
+Index0: 4 5 6 7 8
+Tape0	: 
+Track0: a a b b b
+Head0	: 4
+State : 0
+```"应该是再调用一次execute，接着调用snapShot会得到
+
+```
+Step  : 1
+Index0: 4 5 6 7 8
+Tape0	: 
+Track0: a a b b b
+Head0	: 4
+State : 0
+```
 
 ---
 <span id="Q1"></span>
