@@ -2,7 +2,7 @@
   [
     "图灵机第二次作业的勘误",
     "图灵机第二次作业的勘误",
-    "\n- 在README中关于磁头移动的描述里，应该是\"...当一个磁带的磁头走到了这个磁带的某个磁道的最尾部时，需要给**所有**磁道增加一个空格符...\"\n- \"再调用一次execute，接着调用snapShot会得到\n\n```\nStep  : 0\nIndex0: 4 5 6 7 8\nTape0\t: \nTrack0: a a b b b\nHead0\t: 4\nState : 0\n```\n\"应该是再调用一次execute，接着调用snapShot会得到\n\n```\nStep  : 1\nIndex0: 4 5 6 7 8\nTape0\t: \nTrack0: a a b b b\nHead0\t: 4\nState : 0\n```",
+    "\n- 在README中关于磁头移动的描述里，应该是\"...当一个磁带的磁头走到了这个磁带的某个磁道的最尾部时，需要给**所有**磁道增加一个空格符...\"\n- \"再调用一次execute，接着调用snapShot会得到\n\n```\nStep  : 0\nIndex0: 4 5 6 7 8\nTape0\t: \nTrack0: a a b b b\nHead0\t: 4\nState : 0\n```\n\"\n- 应该是再调用一次execute，接着调用snapShot会得到\n\n```\nStep  : 1\nIndex0: 4 5 6 7 8\nTape0\t: \nTrack0: a a b b b\nHead0\t: 4\nState : 0\n```",
     "2021.6.11"
   ],
   [

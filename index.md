@@ -64,7 +64,8 @@ Track0: a a b b b
 Head0	: 4
 State : 0
 ```
-"应该是再调用一次execute，接着调用snapShot会得到
+"
+- 应该是再调用一次execute，接着调用snapShot会得到
 
 ```
 Step  : 1
