@@ -32,29 +32,35 @@ Git教程
 <!-- questions starts -->
 <span id="question_index"></span>
 ## 问题收集与解答
-- [Maven包无法正确导入的问题](#Q0)  **2021.5.26**
-- [关于打开Java作业出现红色文件的情况](#Q1)  **2021.4.21**
-- [本地通过了但是push上去就编译或者运行错误的几种可能](#Q2)  **2021.3.8**
-- [从git获取题目时发生异常...](#Q3)  **2021.3.7**
-- [两种不同的格式化方式导致currency_exchange代码不通过](#Q4)  **2021.3.6**
-- [登陆coder的时候显示获取用户信息失败与GitLab创建时出现错误](#Q5)  **2021.3.6**
-- [git clone的时候出现"fatal: User cancelled the authentication prompt/remote: HTTP Basic: Access denied/fatal: Authentication failed for .....](#Q6)  **2021.3.5**
-- [coder上的试卷地址是用来干什么的？](#Q7)  **2021.3.5**
-- [git clone的时候输入密码为什么输入不进去？](#Q8)  **2021.3.5**
-- [为什么git clone的时候一直出现密码错误？](#Q9)  **2021.3.5**
-- [clone下来后应该干什么？](#Q10)  **2021.3.5**
-- [clone使用邮箱之中的密码也一直显示不正确怎么办？/coder里面修改密码的时候显示原密码错误怎么办？](#Q11)  **2021.3.5**
-- [我该下载哪些软件？](#Q12)  **2021.3.3**
-- [python 和 Anaconda有什么区别？](#Q13)  **2021.3.3**
-- [IDEA和Pycharm安装的时候让我选择64-Bit或者其他的选项时该怎么选择？](#Q14)  **2021.3.3**
-- [因为防火长城Git下载慢怎么办？](#Q15)  **2021.3.3**
+- [图灵机第二次作业的勘误](#Q0)  **2021.6.11**
+- [Maven包无法正确导入的问题](#Q1)  **2021.5.26**
+- [关于打开Java作业出现红色文件的情况](#Q2)  **2021.4.21**
+- [本地通过了但是push上去就编译或者运行错误的几种可能](#Q3)  **2021.3.8**
+- [从git获取题目时发生异常...](#Q4)  **2021.3.7**
+- [两种不同的格式化方式导致currency_exchange代码不通过](#Q5)  **2021.3.6**
+- [登陆coder的时候显示获取用户信息失败与GitLab创建时出现错误](#Q6)  **2021.3.6**
+- [git clone的时候出现"fatal: User cancelled the authentication prompt/remote: HTTP Basic: Access denied/fatal: Authentication failed for .....](#Q7)  **2021.3.5**
+- [coder上的试卷地址是用来干什么的？](#Q8)  **2021.3.5**
+- [git clone的时候输入密码为什么输入不进去？](#Q9)  **2021.3.5**
+- [为什么git clone的时候一直出现密码错误？](#Q10)  **2021.3.5**
+- [clone下来后应该干什么？](#Q11)  **2021.3.5**
+- [clone使用邮箱之中的密码也一直显示不正确怎么办？/coder里面修改密码的时候显示原密码错误怎么办？](#Q12)  **2021.3.5**
+- [我该下载哪些软件？](#Q13)  **2021.3.3**
+- [python 和 Anaconda有什么区别？](#Q14)  **2021.3.3**
+- [IDEA和Pycharm安装的时候让我选择64-Bit或者其他的选项时该怎么选择？](#Q15)  **2021.3.3**
+- [因为防火长城Git下载慢怎么办？](#Q16)  **2021.3.3**
 
 <span id="Q0"></span>
+#### Q:图灵机第二次作业的勘误 
+**A**:在README中关于磁头移动的描述里，应该是"...当一个磁带的磁头走到了这个磁带的某个磁道的最尾部时，需要给**所有**磁道增加一个空格符..."
+
+---
+<span id="Q1"></span>
 #### Q:Maven包无法正确导入的问题 
 **A**:如果大家出现包无法正确的导入话，一般来说是Maven包下载遇到网络问题而无法下载，建议大家百度一下maven国内镜像配置，修改自己本地.m2文件夹中的settings.xml文件，如果没有这个文件的话，可以自己手动创建一个。然后重新clone项目
 
 ---
-<span id="Q1"></span>
+<span id="Q2"></span>
 #### Q:关于打开Java作业出现红色文件的情况 
 **A**:![B590E405CD2CBE2D6AF6501E7EDAD097](https://pkun.oss-cn-beijing.aliyuncs.com/uPic/B590E405CD2CBE2D6AF6501E7EDAD097.png)
 
@@ -71,7 +77,7 @@ Git教程
 
 
 ---
-<span id="Q2"></span>
+<span id="Q3"></span>
 #### Q:本地通过了但是push上去就编译或者运行错误的几种可能 
 **A**:- 可能是你写完函数之后还在源文件里调用了一次自己，比如
 ```python
@@ -82,12 +88,12 @@ func()
 ```
 
 ---
-<span id="Q3"></span>
+<span id="Q4"></span>
 #### Q:从git获取题目时发生异常[org.gitlab4j.api.GitLabApiException]:404 File Not Found 
 **A**:转发来自吴林漾助教的解答{@458727969}："提醒一下同学们做题的时候不要移动文件，保持文件结构不变，但是可以在src文件夹下面新建文件。文件结构变了push上去和系统记录的文件结构不一致可能跑不出结果"
 
 ---
-<span id="Q4"></span>
+<span id="Q5"></span>
 #### Q:两种不同的格式化方式导致currency_exchange代码不通过 
 **A**:在currency_exchange的测试文件中，是从输出流中提取同学们的print语句print出来的字符串打印的，下列两种不同的格式化方法，在输出流中会不一样
 ![3365F305A095136802E60E0FFF0C35F7](https://pkun.oss-cn-beijing.aliyuncs.com/uPic/3365F305A095136802E60E0FFF0C35F7.jpg)
@@ -97,12 +103,12 @@ func()
 至于具体原因，大家可以自行查询python的文档。
 
 ---
-<span id="Q5"></span>
+<span id="Q6"></span>
 #### Q:登陆coder的时候显示获取用户信息失败与GitLab创建时出现错误，如下图所示![UH1U3y](https://pkun.oss-cn-beijing.aliyuncs.com/uPic/UH1U3y.png) 
 **A**:请联系吴林漾助教{@458727969}
 
 ---
-<span id="Q6"></span>
+<span id="Q7"></span>
 #### Q:git clone的时候出现
 ```
 fatal: User cancelled the authentication prompt.`
@@ -120,51 +126,51 @@ fatal: Authentication failed for .....
 如果还有任何问题，请和这一位助教私聊{@936637810}
 
 ---
-<span id="Q7"></span>
+<span id="Q8"></span>
 #### Q:coder上的试卷地址是用来干什么的？ 
 **A**:coder上试卷的地址是一个`git clone`使用的链接，你可以使用`git clone <url>`来把试卷下载下来，这个地址并不能直接打开。具体的使用情况请看[使用帮助](http://coder.seecoder.cn/help)
 
 ps：coder上已经给出了一些使用帮助，大家使用一些新的软件或者新的网页的时候如果有什么不懂的地方，可以先**RTFM**
 
 ---
-<span id="Q8"></span>
+<span id="Q9"></span>
 #### Q:git clone的时候输入密码为什么输入不进去？ 
 **A**:很多软件输入密码的时候不会显示，git就是其中一个。
 
 ---
-<span id="Q9"></span>
+<span id="Q10"></span>
 #### Q:为什么git clone的时候一直出现密码错误？ 
 **A**:用户名请使用url里面的.cn后接着的那块看起来很像用户名的东西，密码是发送到你邮件之中的密码。
 
 ---
-<span id="Q10"></span>
+<span id="Q11"></span>
 #### Q:clone下来后应该干什么？ 
 **A**:clone下来后对阅读README，修改代码，然后使用[使用帮助](http://coder.seecoder.cn/help)中给出的方式提交。clone下来的文件在你clone的目录下面。
 
 ---
-<span id="Q11"></span>
+<span id="Q12"></span>
 #### Q:clone使用邮箱之中的密码也一直显示不正确怎么办？/coder里面修改密码的时候显示原密码错误怎么办？ 
 **A**:请和这一位助教私聊{@936637810}
 
 ---
-<span id="Q12"></span>
+<span id="Q13"></span>
 #### Q:我该下载哪些软件？ 
 **A**:python 版本3.*均可、JDK 最好是1.8，这两项是必要的，另外如果需要也可以下载Anaconda。IDE方面每个人都是自由的，你可以使用Pycharm、IDEA或者其他的IDE，不用IDE也可以。
 
 ps：机房的环境为Pycharm、IDEA。上机考试需要同学们自己去熟悉环境。
 
 ---
-<span id="Q13"></span>
+<span id="Q14"></span>
 #### Q:python 和 Anaconda有什么区别？ 
 **A**:Anaconda是python的一个环境与包管理软件，自带一个python3。Anaconda并不是必要的，但是使用它可以节省同学们自己安装python包的时间，同时也帮同学们解决了一些潜在的包版本冲突问题。Python和Anaconda安装了其中一个，另一个就不用安装了，否则有可能引起一些奇怪的冲突。当然，在本门课程中你只有很小很小的概率会遇到包版本冲突。不使用Anaconda的时候，你需要使用`pip/pip3 install <package>`的方式来安装python包。如果速度很慢，请百度搜索`python pip 清华源`来进行换源。
 
 ---
-<span id="Q14"></span>
+<span id="Q15"></span>
 #### Q:IDEA和Pycharm安装的时候让我选择64-Bit或者其他的选项时该怎么选择？ 
 **A**:电脑是32Bit还是64Bit需要同学们查看自己的电脑的配置，具体如何查看可以百度。有一些配置通过英译中后可以正常理解。其中比较关键的是**环境变量**，环境变量会影响你能否在命令行之中使用一些指令，如果你需要在**任何位置**打开命令行时都可以使用某条指令，比如`javac`或者`python`，那你需要先将这两个东西添加到环境变量之中。网上有大量关于环境变量的教程，在百度中搜索即可。
 
 ---
-<span id="Q15"></span>
+<span id="Q16"></span>
 #### Q:因为防火长城Git下载慢怎么办？ 
 **A**:挂个梯子，或者使用群里面的文件。
 
